@@ -89,7 +89,7 @@ Sample response is as shown
 - 404 error is raised if the id is not associated with any question
 
 
-### POST '/questions (to add new question)
+### POST '/questions' (to add new question)
 - For a 'POST' request, a new question can be created and stored in the database with a new id. 
 - However, the request body **MUST** be a dictionary object with all the keys in the sample below.
 
